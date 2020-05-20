@@ -1,1 +1,34 @@
+.main {
+  display:          flex;
+  width:            800px;
+  margin:           0 auto;
+  padding:          35px 0;
+  background-color: #ffffff;
+  justify-content:  space-between;
 
+  &__articre {
+    width: 80%;
+    
+    %-content-image {
+      height:               200px;
+      background-position:  center top;
+      background-size:      auto 100%;
+      background-repeat:    no-repeat;
+    }
+    &-title {
+      border-bottom: 1px solid #cccccc;
+      font-size:     36px;
+      font-family:   'Bitter', serif;
+    }
+
+    &-content-image-photo {
+      @extend %-content-image;
+        background-image:     url(../../image/portfolio-photo.jpg);
+    }
+
+    &-content-image-video {
+      @extend %-content-image;
+        background-image:     url(../../image/portfolio-video.jpg);
+    }
+  }
+}

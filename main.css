@@ -1,7 +1,7 @@
 body {
   margin: 0;
   padding: 0;
-  background-color: #cccccc;
+  background-color: #ffffff;
   color: #333333;
   font-size: 15px;
   line-height: 2;
@@ -45,3 +45,26 @@ a:hover {
       padding-bottom: 3px;
       border-bottom: 2px solid #ffffff;
       text-decoration: none; }
+
+.main {
+  display: flex;
+  width: 800px;
+  margin: 0 auto;
+  padding: 35px 0;
+  background-color: #ffffff;
+  justify-content: space-between; }
+  .main__articre {
+    width: 80%; }
+    .main__articre .main__articre-content-image-photo, .main__articre .main__articre-content-image-video {
+      height: 200px;
+      background-position: center top;
+      background-size: auto 100%;
+      background-repeat: no-repeat; }
+    .main__articre-title {
+      border-bottom: 1px solid #cccccc;
+      font-size: 36px;
+      font-family: 'Bitter', serif; }
+    .main__articre-content-image-photo {
+      background-image: url(31d7335746fbd48993cfa6b8f4f39ca2.jpg); }
+    .main__articre-content-image-video {
+      background-image: url(856e16e00974fe99a223ffde337810ca.jpg); }
