@@ -3,7 +3,7 @@ body {
   padding: 0;
   background-color: #ffffff;
   color: #333333;
-  font-size: 15px;
+  font-size: 14px;
   line-height: 2;
   position: relative; }
 
@@ -60,6 +60,9 @@ a:hover {
       background-position: center top;
       background-size: auto 100%;
       background-repeat: no-repeat; }
+    .main__articre .main__articre-content-image-photo:hover, .main__articre .main__articre-content-image-video:hover {
+      opacity: 0.8;
+      cursor: pointer; }
     .main__articre-title {
       border-bottom: 1px solid #cccccc;
       font-size: 36px;
