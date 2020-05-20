@@ -1,25 +1,33 @@
-header {
+.header {
   height:           560px;
   background-image: url(../../image/bg-portfolio.jpg);
   background-size:  cover;
 
-  nav {
+  &__nav {
     width:           50%;
     margin:          0 auto;
     display:         flex;
     justify-content: flex-end;
-
-    .global-nav {
-      display:    flex;
-      margin-top: 60px;
-
-      &__global-list {
-        margin:      0 20px;
-        font-size:   20px;
-        list-style:  none;
-        font-family: 'Bitter', serif;
-       
-      }
-    }
   }
+  
+  &__box {
+    display:    flex;
+    margin-top: 56px;
+  }
+
+  &__box-list {
+    margin:      0 20px;
+    font-size:   20px;
+    list-style:  none;
+    font-family: 'Bitter', serif;
+  }
+          
+  a { color: #ffffff; }
+
+  a:hover {
+    border-bottom:   2px solid #ffffff;
+    padding-bottom:  3px;
+    text-decoration: none;
+  }
+
 }

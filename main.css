@@ -12,7 +12,7 @@ ul {
   padding: 0; }
 
 a {
-  color: #EEEEEE;
+  color: #3583aa;
   text-decoration: none; }
 
 a:hover {
@@ -21,20 +21,26 @@ a:hover {
 * {
   box-sizing: border-box; }
 
-header {
+.header {
   height: 560px;
   background-image: url(9c51512420d70040e8aab73d831949b5.jpg);
   background-size: cover; }
-  header nav {
+  .header__nav {
     width: 50%;
     margin: 0 auto;
     display: flex;
     justify-content: flex-end; }
-    header nav .global-nav {
-      display: flex;
-      margin-top: 60px; }
-      header nav .global-nav__global-list {
-        margin: 0 20px;
-        font-size: 20px;
-        list-style: none;
-        font-family: 'Bitter', serif; }
+  .header__box {
+    display: flex;
+    margin-top: 56px; }
+  .header__box-list {
+    margin: 0 20px;
+    font-size: 20px;
+    list-style: none;
+    font-family: 'Bitter', serif; }
+  .header a {
+    color: #ffffff; }
+  .header a:hover {
+    border-bottom: 2px solid #ffffff;
+    padding-bottom: 3px;
+    text-decoration: none; }
