@@ -25,22 +25,22 @@ a:hover {
   height: 560px;
   background-image: url(9c51512420d70040e8aab73d831949b5.jpg);
   background-size: cover; }
-  .header__nav {
+  .header__inner {
+    display: flex;
     width: 50%;
     margin: 0 auto;
-    display: flex;
     justify-content: flex-end; }
-  .header__box {
+  .header__nav {
     display: flex;
     margin-top: 56px; }
-  .header__box-list {
+  .header__nav-list {
+    list-style: none;
     margin: 0 20px;
     font-size: 20px;
-    list-style: none;
     font-family: 'Bitter', serif; }
-  .header a {
+  .header__nav-link {
     color: #ffffff; }
-  .header a:hover {
-    border-bottom: 2px solid #ffffff;
+  .header__nav-link:hover {
     padding-bottom: 3px;
+    border-bottom: 2px solid #ffffff;
     text-decoration: none; }

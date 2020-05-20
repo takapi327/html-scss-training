@@ -3,31 +3,30 @@
   background-image: url(../../image/bg-portfolio.jpg);
   background-size:  cover;
 
-  &__nav {
+  &__inner {
+    display:         flex;
     width:           50%;
     margin:          0 auto;
-    display:         flex;
     justify-content: flex-end;
   }
   
-  &__box {
+  &__nav {
     display:    flex;
     margin-top: 56px;
   }
 
-  &__box-list {
+  &__nav-list {
+    list-style:  none;
     margin:      0 20px;
     font-size:   20px;
-    list-style:  none;
     font-family: 'Bitter', serif;
   }
           
-  a { color: #ffffff; }
+  &__nav-link { color: #ffffff; }
 
-  a:hover {
-    border-bottom:   2px solid #ffffff;
+  &__nav-link:hover {
     padding-bottom:  3px;
+    border-bottom:   2px solid #ffffff;
     text-decoration: none;
   }
-
 }
