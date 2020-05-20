@@ -28,22 +28,20 @@ a:hover {
   background-size: 100% auto;
   background-repeat: no-repeat;
   background-attachment: fixed; }
-  .header__inner {
+  .header__nav-list {
     display: flex;
     width: 50%;
     margin: 0 auto;
+    padding-top: 56px;
     justify-content: flex-end; }
-  .header__nav {
-    display: flex;
-    margin-top: 56px; }
-  .header__nav-list {
-    list-style: none;
-    margin: 0 20px;
-    font-size: 20px;
-    font-family: 'Bitter', serif; }
-  .header__nav-link {
-    color: #ffffff; }
-  .header__nav-link:hover {
-    padding-bottom: 3px;
-    border-bottom: 2px solid #ffffff;
-    text-decoration: none; }
+    .header__nav-list-item {
+      list-style: none;
+      margin: 0 20px;
+      font-size: 20px;
+      font-family: 'Bitter', serif; }
+    .header__nav-list-item-link {
+      color: #ffffff; }
+    .header__nav-list-item-link:hover {
+      padding-bottom: 3px;
+      border-bottom: 2px solid #ffffff;
+      text-decoration: none; }

@@ -5,31 +5,27 @@
   background-size:       100% auto;
   background-repeat:     no-repeat;
   background-attachment: fixed;
-
-  &__inner {
+  
+  &__nav-list {
     display:         flex;
     width:           50%;
     margin:          0 auto;
+    padding-top:     56px;
     justify-content: flex-end;
-  }
-  
-  &__nav {
-    display:    flex;
-    margin-top: 56px;
-  }
 
-  &__nav-list {
-    list-style:  none;
-    margin:      0 20px;
-    font-size:   20px;
-    font-family: 'Bitter', serif;
-  }
+    &-item {
+      list-style:  none;
+      margin:      0 20px;
+      font-size:   20px;
+      font-family: 'Bitter', serif;
+    }
           
-  &__nav-link { color: #ffffff; }
+    &-item-link { color: #ffffff; }
 
-  &__nav-link:hover {
-    padding-bottom:  3px;
-    border-bottom:   2px solid #ffffff;
-    text-decoration: none;
+    &-item-link:hover {
+      padding-bottom:  3px;
+      border-bottom:   2px solid #ffffff;
+      text-decoration: none;
+    }
   }
 }
