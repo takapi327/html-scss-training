@@ -1,6 +1,12 @@
 .header {
-  height:           560px;
-  background-image: url(../../image/bg-portfolio.jpg);
+  height:                560px;
+  background-image:      url(../../image/bg-portfolio.jpg);
+  background-position:   center top;
+  background-size:       100% auto;
+  background-repeat:     no-repeat;
+  background-attachment: fixed;
+
+
   background-size:  cover;
 
   &__inner {
