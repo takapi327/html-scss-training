@@ -1,5 +1,3 @@
-@charset "utf-8";
-
 body {
   margin: 0;
   padding: 0;
@@ -7,14 +5,43 @@ body {
   color: #333333;
   font-size: 15px;
   line-height: 2;
-  position:    relative;
-}
+  position: relative; }
 
-ul { margin: 0; padding: 0; }
+ul {
+  margin: 0;
+  padding: 0; }
 
-a { color: #3583aa; text-decoration: none; }
+a {
+  color: #3583aa;
+  text-decoration: none; }
 
-a:hover { text-decoration: underline; }
+a:hover {
+  text-decoration: underline; }
 
-/************** ここまではコピペOKです ****************/
+* {
+  box-sizing: border-box; }
 
+.header {
+  height: 560px;
+  background-image: url(9c51512420d70040e8aab73d831949b5.jpg);
+  background-position: center top;
+  background-size: 100% auto;
+  background-repeat: no-repeat;
+  background-attachment: fixed; }
+  .header__nav-list {
+    display: flex;
+    width: 50%;
+    margin: 0 auto;
+    padding-top: 56px;
+    justify-content: flex-end; }
+    .header__nav-list-item {
+      list-style: none;
+      margin: 0 20px;
+      font-size: 20px;
+      font-family: 'Bitter', serif; }
+    .header__nav-list-item-link {
+      color: #ffffff; }
+    .header__nav-list-item-link:hover {
+      padding-bottom: 3px;
+      border-bottom: 2px solid #ffffff;
+      text-decoration: none; }
