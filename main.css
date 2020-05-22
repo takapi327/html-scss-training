@@ -84,3 +84,10 @@ a:hover {
       margin-left: 20px; }
       .main__sidebar-list-link {
         color: #333333; }
+
+.footer {
+  height: 50px;
+  background-color: #767671;
+  color: #ffffff;
+  line-height: 50px;
+  text-align: center; }
