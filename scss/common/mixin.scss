@@ -1,0 +1,12 @@
+@mixin contentImage($image) {
+  height:              200px;
+  background-image:    $image;
+  background-position: center;
+  background-size:     100% auto;
+  background-repeat:   no-repeat;
+}
+
+@mixin contentImageHover() {
+  opacity: 0.8;
+  cursor:  pointer;
+}
