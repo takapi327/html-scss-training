@@ -1,2 +1,60 @@
-@import '../common/reset';
-@import './header';
+.main {
+  width:            900px;
+  margin:           0 auto;
+  padding:          35px 0;
+  background-color: #ffffff;
+
+  &__article {
+    display: inline-block;
+    width:   600px;
+    margin:  0 10px;
+    
+    %-content-image {
+      height:              200px;
+      background-position: center;
+      background-size:     100% auto;
+      background-repeat:   no-repeat;
+    }
+
+    %-content-image:hover { 
+      opacity: 0.8;
+      cursor:  pointer;
+    }
+    &-title {
+      border-bottom: 1px solid #cccccc;
+      font-size:     36px;
+      font-family:   'Bitter', serif;
+    }
+
+    &-content-image-photo {
+      @extend %-content-image;
+        background-image: url(../../image/portfolio-photo.jpg);
+    }
+
+    &-content-image-video {
+      @extend %-content-image;
+        background-image: url(../../image/portfolio-video.jpg);
+    }
+  }
+
+  &__sidebar {
+    display:        inline-block;
+    width:          200px;
+    margin:         0 10px 0 30px;
+    font-family:    'Bitter', serif;
+    vertical-align: top;
+
+    &-title {
+      font-size: 24px;
+    }
+
+    &-list {
+      font-size:   16px;
+      margin-left: 20px;
+
+      &-link {
+        color: #333333;
+      }
+    }
+  }
+}
